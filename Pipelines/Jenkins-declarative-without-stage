@@ -2,7 +2,7 @@ pipeline{
     agent any
     stages {
         stage('Hello') {
-            echo "Hello from Declarative Pipeline"
+            sh '"Hello from Declarative Pipeline"'
         }
     }
 }
